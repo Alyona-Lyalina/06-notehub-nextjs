@@ -12,7 +12,7 @@ export default async function NoteDetailsPage({
   params: { id: string };
 }) {
   const queryClient = new QueryClient();
-  const id = params.id; // 👈 строка, не number
+  const id = params.id;
 
   await queryClient.prefetchQuery({
     queryKey: ["note", id],

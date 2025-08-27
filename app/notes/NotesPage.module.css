@@ -1,6 +1,6 @@
 .app {
-  width: 90%;
-  max-width: 1280px;
+  width: 100%;
+  max-width: 1440px;
   margin: 0px auto;
   padding: 0 16px 16px;
   flex: 1;
@@ -12,15 +12,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 16px 0;
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #dee2e6;
+  background-color: #ffffff;
 }
 
 .button {
   padding: 6px 12px;
   font-size: 16px;
   color: #fff;
-  background-color: #0d6efd;
+  background-color: #ea4db3;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -28,5 +27,5 @@
 }
 
 .button:hover {
-  background-color: #0b5ed7;
+  background-color: #d32496;
 }

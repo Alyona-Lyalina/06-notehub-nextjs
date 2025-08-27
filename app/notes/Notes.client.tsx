@@ -17,7 +17,7 @@
 
  const perPage = 12;
 
- const App = () => {
+ const NotesClient = () => {
    const [page, setPage] = useState(1);
    const [searchQuery, setSearchQuery] = useState("");
    const [isModalOpen, setIsModalOpen] = useState(false);
@@ -68,4 +68,4 @@
    );
  };
 
- export default App;
+ export default NotesClient;
