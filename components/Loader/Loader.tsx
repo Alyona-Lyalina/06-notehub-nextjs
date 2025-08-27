@@ -10,7 +10,6 @@ export default function Loader({ loading = true }) {
         size={80}
         speedMultiplier={1}
       />
-      {loading && <p className={css.text}>Loading, please wait...</p>}
     </div>
   );
 }

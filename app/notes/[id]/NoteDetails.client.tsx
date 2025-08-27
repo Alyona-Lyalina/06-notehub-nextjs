@@ -6,8 +6,6 @@ import { useQuery } from "@tanstack/react-query";
 import { fetchNoteById } from "@/lib/api";
 import type { Note } from "@/types/note";
 
-
-
 export default function NoteDetailsClient() {
   const params = useParams();
   const id = Array.isArray(params.id) ? params.id[0] : params.id;

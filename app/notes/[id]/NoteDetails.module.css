@@ -7,6 +7,10 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
+.flexWrap {
+  flex: 1;
+}
+
 .item {
   display: flex;
   flex-direction: column;
