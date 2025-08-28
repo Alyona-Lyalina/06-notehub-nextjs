@@ -1,7 +1,7 @@
 .app {
   width: 100%;
   max-width: 1440px;
-  margin: 0px auto;
+  margin: 48px auto;
   padding: 0 16px 16px;
   flex: 1;
 }

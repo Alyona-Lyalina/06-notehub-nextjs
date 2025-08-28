@@ -15,16 +15,23 @@
 }
 
 .title {
-  font-size: 36px;
+  font-size: 42px;
   font-weight: 700;
   color: #1a1a1a;
   margin-bottom: 60px;
   text-align: center;
+ background: linear-gradient(to bottom, #dd93be, #000000); 
+  background-clip: text;       
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
+
 .description {
-  font-size: 18px;
+  font-size: 20px;
   color: #444444;
   line-height: 28px;
   margin-bottom: 16px;
+  
 }

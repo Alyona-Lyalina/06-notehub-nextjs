@@ -1,9 +1,7 @@
 "use client";
 
-import css from "../page.module.css";
+import Loader from "@/components/Loader/Loader";
 
-function Loading() {
-  return <p className={css.main}>Loading, please wait...</p>;
+export default function Loading() {
+  return <Loader />;
 }
-
-export default Loading;
